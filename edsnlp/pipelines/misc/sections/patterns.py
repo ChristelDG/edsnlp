@@ -16,6 +16,8 @@ antecedents = [
     r"antecedents medicaux",
     r"antecedents chirurgicaux",
     r"atcd",
+    r"antecedents-allergies", 
+    r"antecedents - allergies",
 ]
 
 antecedents_familiaux = [r"antecedents familiaux"]
@@ -26,6 +28,8 @@ traitements_entree = [
     r"traitement actuel",
     r"traitement en cours",
     r"traitements a l'entree",
+    r"traitement en-cours", 
+    r"traitement habituel"
 ]
 
 conclusion = [
@@ -93,13 +97,14 @@ motif = [
     r"motif d'hospitalisation",
     r"motif de l'hospitalisation",
     r"motif medical",
+    r"motif de la consultation"
 ]
 
 prescriptions = [r"prescriptions de sortie", r"prescriptions medicales de sortie"]
 
 traitements_sortie = [r"traitement de sortie"]
 
-evolution = [r"evolution", r"evolution et examen clinique aux lits portes :"]
+evolution = [r"evolution", r"evolution et examen clinique aux lits portes :", r"evolution clinique"]
 
 modalites_sortie = [r"modalites de sortie", r"devenir du patient"]
 
